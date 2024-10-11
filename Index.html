@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="text-white text-center py-5 ">
+      
+        <div class="container">
+            <h1 class="titulos">Hola, soy Edvin</h1>
+            <h2  class="lead">Programador Jr. | Apasionado por la tecnologia</h2>
+            <a href="#projects" class="btn btn-dark">Ver Proyectos</a>
+        </div>
+    </header>
+
+
+    <section id="about" class="py-5 fade-in-out" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Sobre Mí</h2>
+                    <p>Soy un apasionado por la tecnología y la programacion. Mi objetivo es lograr crear soluciones prácticas y eficientes para las necesidades digitales del mundo moderno.</p>
+                </div>
+                <div class="col-lg-6  fade-in-out">
+                    <img id="img" src="imagenes/imagen3.jpg" alt="Mi Foto" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Proyectos</h2>
+            <div class="row">
+
+
+
+
+            
+                <div class="col-md-4" onclick="window.location.href='https://github.com/Jovany721/API_Django'" style="cursor: pointer;">
+                    
+                   
+                    <div class="card mb-4 shadow-sm">
+                       
+                        <img src="imagenes/rest.png" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Ejemplo api</h5>
+                            <p class="card-text">Ejemplo de una Api Rest basica Utilizando Rest Framework</p>
+                        </div>
+                    
+                    </div>
+               
+                </div>
+            
+
+              
+                <div class="col-md-4" onclick="window.location.href='https://github.com/Jovany721/download_video'" style="cursor: pointer;">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="imagenes/logo.jpg" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Dowload-video-Youtube</h5>
+                            <p class="card-text">Programa creado con Python con librerias externas y flet para la interfaz grafica</p>
+                        </div>
+                    </div>
+                </div>
+      
+      
+
+
+            
+                <div class="col-md-4" onclick="window.location.href='https://github.com/Jovany721/Sistema_de_Inventario'" style="cursor: pointer;">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="imagenes/imagen4.jpg" class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistema de Control de Inventario</h5>
+                            <p class="card-text">Es un proyecto en Proceso, con el objetivo de llegar a ser un sistema  funcional para la gestion de inventarios</p>
+                        </div>
+                    </div>
+                </div>
+           
+
+
+            </div>
+        </div>
+    </section>
+
+
+    
+    <footer class="bajo text-center  text-white py-4">
+        <p>&copy; 2024 Hecho por Jovany R. Todos los derechos reservados.</p>
+    
+    
+
+
+
+
+
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

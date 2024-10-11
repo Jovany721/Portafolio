@@ -1,0 +1,31 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: aliceblue;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: black;
+}
+
+.bajo {
+    background-color:rgb(6, 6, 6);
+    color: #000000;
+}
+
+
+
+#about{
+
+
+
+    background-color: aliceblue;
+}
+
